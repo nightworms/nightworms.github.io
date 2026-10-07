@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistant personnel Hermes — accès Google</title>
+<meta name="description" content="Application personnelle à usage unique : lecture de l'agenda Google et de la boîte de réception pour produire un résumé quotidien.">
+<style>
+:root{--encre:#16202b;--encre2:#4a5768;--fond:#f2f4f7;--carte:#fff;--bord:#c9d2dc;--accent:#14507a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--encre);line-height:1.65;
+     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.enveloppe{max-width:760px;margin:0 auto;padding:0 22px}
+header{background:#0d3554;color:#fff;padding:40px 0 34px}
+header h1{margin:0 0 10px;font-size:1.6rem;line-height:1.25}
+header p{margin:0;color:#dbe6f1;max-width:60ch}
+main{padding:38px 0 10px}
+section{margin:0 0 30px}
+h2{font-size:1.1rem;margin:0 0 10px}
+h3{font-size:1rem;margin:18px 0 6px}
+p,li{margin:0 0 10px}
+ul{padding-left:1.2rem;margin:0 0 12px}
+a{color:var(--accent)}
+.carte{background:var(--carte);border:1px solid var(--bord);border-radius:10px;padding:18px 20px}
+footer{border-top:1px solid var(--bord);margin-top:34px;padding:20px 0 40px;color:var(--encre2);font-size:.9rem}
+footer p{margin:0 0 6px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="enveloppe">
+    <h1>Assistant personnel Hermes — accès Google</h1>
+    <p>Application à usage strictement personnel : elle lit l'agenda et la boîte de réception
+       de son unique utilisateur pour lui produire un résumé quotidien.</p>
+  </div>
+</header>
+
+<main class="enveloppe">
+
+  <section>
+    <h2>À quoi sert cette application</h2>
+    <p>Cette application n'est pas un service ouvert au public. Elle sert à une seule personne :
+       le propriétaire du compte Google qu'elle utilise. Elle lui évite d'ouvrir deux
+       applications chaque matin pour savoir ce qui l'attend.</p>
+    <p>Une fois par jour, elle rassemble les événements de la journée et les messages récents
+       de la boîte de réception, et en fait un résumé unique, envoyé à son utilisateur par
+       messagerie privée.</p>
+  </section>
+
+  <section>
+    <h2>Ce qu'elle consulte</h2>
+    <ul>
+      <li><strong>Google Agenda</strong> — les événements des calendriers de l'utilisateur
+          (agenda principal et calendriers secondaires : famille, vacances scolaires, jours fériés).</li>
+      <li><strong>Gmail, en lecture seule</strong> — les messages récents de la boîte de réception,
+          afin d'en signaler les échéances et les demandes en attente.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ce qu'elle ne fait pas</h2>
+    <ul>
+      <li>Elle ne crée, ne modifie et ne supprime aucun événement ni aucun message :
+          l'accès à Gmail est <strong>strictement en lecture seule</strong>.</li>
+      <li>Elle n'envoie aucun courrier au nom de l'utilisateur.</li>
+      <li>Elle ne transmet aucune donnée à un tiers.</li>
+      <li>Elle ne revend, ne loue et n'exploite aucune donnée à des fins publicitaires.</li>
+      <li>Elle n'a accès ni au contenu du Drive, ni aux documents, ni aux feuilles de calcul.</li>
+    </ul>
+    <p>Le traitement est assuré par un assistant logiciel qui s'exécute sur la machine
+       de l'utilisateur. Aucune donnée n'est hébergée sur un serveur tiers par cette application.</p>
+  </section>
+
+  <section>
+    <h2>Vos données</h2>
+    <div class="carte">
+      <p>L'usage des informations reçues des API Google respecte la
+         <a href="https://developers.google.com/terms/api-services-user-data-policy">politique
+         relative aux données utilisateur des services API Google</a>, y compris ses
+         exigences d'utilisation limitée.</p>
+      <p style="margin:0"><a href="confidentialite.html">Politique de confidentialité complète</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Retirer l'accès</h2>
+    <p>À tout moment, l'utilisateur peut révoquer l'accès de cette application depuis
+       <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+       La révocation prend effet immédiatement.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="enveloppe">
+    <p>Application personnelle, à utilisateur unique. Aucune inscription n'est proposée.</p>
+    <p>Page sans script, sans police distante et sans ressource externe.</p>
+  </div>
+</footer>
+
+</body>
+</html>
